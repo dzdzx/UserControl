@@ -1,0 +1,8 @@
+E:\dzd\vs-workspace\dataBaseTest\dataDao\bin\Debug\dataDao.dll
+E:\dzd\vs-workspace\dataBaseTest\dataDao\bin\Debug\dataDao.pdb
+E:\dzd\vs-workspace\dataBaseTest\dataDao\bin\Debug\MySql.Data.xml
+E:\dzd\vs-workspace\dataBaseTest\dataDao\obj\Debug\dataDao.csprojAssemblyReference.cache
+E:\dzd\vs-workspace\dataBaseTest\dataDao\obj\Debug\dataDao.csproj.CoreCompileInputs.cache
+E:\dzd\vs-workspace\dataBaseTest\dataDao\obj\Debug\dataDao.csproj.CopyComplete
+E:\dzd\vs-workspace\dataBaseTest\dataDao\obj\Debug\dataDao.dll
+E:\dzd\vs-workspace\dataBaseTest\dataDao\obj\Debug\dataDao.pdb

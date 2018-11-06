@@ -1,0 +1,16 @@
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\bin\Debug\MyAgaue2.dll
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\bin\Debug\MyAgaue2.pdb
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\GaugeControl.g.cs
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\UserControl1.g.cs
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\MyAgaue2_MarkupCompile.cache
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\MyAgaue2_MarkupCompile.lref
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\GaugeControl.baml
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\UserControl1.baml
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\MyAgaue2.g.resources
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\MyAgaue2.Properties.Resources.resources
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\MyAgaue2.csproj.GenerateResource.cache
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\MyAgaue2.csproj.CoreCompileInputs.cache
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\MyAgaue2.dll
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\MyAgaue2.pdb
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\dzd\vs-workspace\dataBaseTest\MyAgaue2\obj\Debug\MyAgaue2.csprojAssemblyReference.cache

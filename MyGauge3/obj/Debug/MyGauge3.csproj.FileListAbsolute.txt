@@ -1,0 +1,13 @@
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\bin\Debug\MyGauge3.dll
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\bin\Debug\MyGauge3.pdb
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\MyGauge3.csprojAssemblyReference.cache
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\GaugeCon.g.cs
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\MyGauge3_MarkupCompile.cache
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\MyGauge3_MarkupCompile.lref
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\GaugeCon.baml
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\MyGauge3.g.resources
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\MyGauge3.Properties.Resources.resources
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\MyGauge3.csproj.GenerateResource.cache
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\MyGauge3.csproj.CoreCompileInputs.cache
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\MyGauge3.dll
+E:\dzd\vs-workspace\dataBaseTest\MyGauge3\obj\Debug\MyGauge3.pdb

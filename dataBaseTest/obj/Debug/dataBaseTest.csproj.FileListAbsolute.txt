@@ -1,0 +1,12 @@
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\bin\Debug\dataBaseTest.exe.config
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\bin\Debug\dataBaseTest.exe
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\bin\Debug\dataBaseTest.pdb
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\bin\Debug\Google.Protobuf.dll
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\bin\Debug\MySql.Data.dll
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\bin\Debug\Google.Protobuf.xml
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\bin\Debug\MySql.Data.xml
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\obj\Debug\dataBaseTest.csprojAssemblyReference.cache
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\obj\Debug\dataBaseTest.csproj.CoreCompileInputs.cache
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\obj\Debug\dataBaseTest.csproj.CopyComplete
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\obj\Debug\dataBaseTest.exe
+E:\dzd\vs-workspace\dataBaseTest\dataBaseTest\obj\Debug\dataBaseTest.pdb

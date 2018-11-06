@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="MyAgaue2.GaugeControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyAgaue2"
+             mc:Ignorable="d" Width="300" Height="300"
+             x:Name="GaugeMain">
+    <Grid x:Name="LayoutRoot"
+          Width="{Binding ElementName=GaugeMain, Path=Width}"
+          Height="{Binding ElementName=GaugeMain, Path=Height}">
+        <Grid x:Name="test">
+            <Path StrokeThickness="1" x:Name="OuterEllipse" Stroke="DimGray" Stretch="UniformToFill" Fill="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:GaugeControl},Mode=FindAncestor},Path=MajorTickMarkColor}">
+                <Path.Data>
+                    <EllipseGeometry RadiusY="150" RadiusX="150" Center="150,150"></EllipseGeometry>
+                </Path.Data>
+                <!--
+                <Path.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Gainsboro" Offset="0.462"></GradientStop>
+                        <GradientStop Color="Silver" Offset="0.552"></GradientStop>
+                    </LinearGradientBrush>
+                </Path.Fill>
+                -->
+            </Path>
+
+            <Path Stroke="GhostWhite" StrokeThickness="1"  Margin="10" Stretch="UniformToFill" x:Name="InnerEllipse" Fill="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:GaugeControl},Mode=FindAncestor},Path=MinorTickMarkColor}" >
+                <Path.Data>
+                    <EllipseGeometry RadiusX="140" RadiusY="140" Center="150,150">
+                    </EllipseGeometry>
+                </Path.Data>
+                <!--
+                <Path.Fill>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FFF1DFDF" Offset="0.777"/>
+                        <GradientStop Color="#FF301F1F" Offset="0.027"/>
+                    </RadialGradientBrush>
+                </Path.Fill>
+                -->
+            </Path>
+
+            <Path Stroke="Red" StrokeThickness="0" Fill="Red" x:Name="Needle" >
+                <Path.Data>
+                    <PathGeometry x:Name="NeedlePointer">
+                        <PathFigure StartPoint="150,150" IsClosed="True">
+                            
+                            <LineSegment Point="60,150"></LineSegment>
+                            
+                        </PathFigure>
+                        <!--
+                            <PathGeometry.Transform>
+                                <RotateTransform Angle="20" CenterX="150" CenterY="150"></RotateTransform>
+                            </PathGeometry.Transform>
+                        -->
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+        </Grid>
+
+        <Grid x:Name="ScaleMarker">
+
+            <DockPanel Width="{Binding Path=Width}" LastChildFill="False" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <DockPanel.RenderTransform>
+                    <RotateTransform Angle="0"/>
+                </DockPanel.RenderTransform>
+                <Line Margin="10" StrokeThickness="2" Stroke="Black" Width="10" X1="100">
+                    <Line.Effect>
+                        <BlurEffect Radius="3" />
+                    </Line.Effect>
+                </Line>
+            </DockPanel>
+
+            <DockPanel Height="{Binding Path=Height}" Width="100" HorizontalAlignment="Center" LastChildFill="False" VerticalAlignment="Stretch" RenderTransformOrigin="0.5,0.5">
+                <DockPanel.RenderTransform>
+                    <RotateTransform Angle="0"></RotateTransform>
+                </DockPanel.RenderTransform>
+                <TextBlock x:Name="ScaleLabel"  Margin="30" Width="100" HorizontalAlignment="Center" VerticalAlignment="Top"
+                       Text="000" TextAlignment="Center"></TextBlock>
+            </DockPanel>
+        </Grid>
+        <TextBlock x:Name="ValueLabel" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:GaugeControl},Mode=FindAncestor},Path=Value}"></TextBlock>
+
+    </Grid>
+</UserControl>
